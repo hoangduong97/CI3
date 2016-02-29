@@ -36,7 +36,7 @@ public class Plane {
         this.sprite = sprite;
     }
 
-    private static final int maxBullets = 10;// maximum number of bullets on screen (depens on delay, bullet's speed, window height)
+    private static final int maxBullets = 10;// maximum number of bullets on screen (depends on delay, bullet's speed, window height)
     private static final int delay = 30; // time between two bullets is (delay * 17) milliseconds
 
     private int positionX;
