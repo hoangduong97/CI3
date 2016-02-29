@@ -74,7 +74,7 @@ public class GameWindow extends Frame implements KeyListener, Runnable, MouseMot
         }
         this.addKeyListener(this);
         this.addMouseMotionListener(this);
-        //repaint();
+        repaint();
     }
 
     @Override
@@ -109,6 +109,7 @@ public class GameWindow extends Frame implements KeyListener, Runnable, MouseMot
 
     @Override
     public void run() {
+        int x = 0;
         while (true) {
             plane1.update();
             plane2.update();
