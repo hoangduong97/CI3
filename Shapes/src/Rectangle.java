@@ -28,7 +28,7 @@ public class Rectangle extends Shape implements IArea {
 
     @Override
     public double iArea() {
-        return 0;
+        return this.width * this.height;
     }
 
     public Rectangle(int x, int y, int width, int height) {

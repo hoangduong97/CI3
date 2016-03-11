@@ -27,7 +27,7 @@ public class Circle extends Shape implements IArea {
 
     @Override
     public double iArea() {
-        return 0;
+        return Math.PI * this.radius * this.radius;
     }
 
     public int getRadius() {
